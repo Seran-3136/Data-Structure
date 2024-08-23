@@ -34,7 +34,6 @@ int hourglassSum(int arr_rows, int arr_columns, int** arr) {
 
     return max_sum;
 }
-
 int main()
 {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
